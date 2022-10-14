@@ -58,6 +58,8 @@ exports.readManifest = async function (filePath) {
 
       return data.Body.toString();
     }
+
+    throw err
   }
 };
 
